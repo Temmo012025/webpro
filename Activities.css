@@ -1,0 +1,358 @@
+.container{
+    width:100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.seven:first-child,.eight:first-child, .nine:first-child, .ten:first-child,.eleven:first-child,.five:first-child, .four:first-child, .three:first-child, .two:first-child, .one:first-child, .six:first-child { 
+	margin-left: 0; /* This line of code makes the left-most column align to the left of the screen */
+}
+input[type=text] {
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    float:right;
+}
+
+input[type=text]:focus {
+    width: 20%;
+}
+.topnav {
+    background-color:rgba(0,0,0,.5);
+    overflow: hidden;
+   
+}
+
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+     font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+
+.topnav a:hover {
+    background-color:aqua;
+   
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+    input{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+.eleven{
+    width:91.5%;
+    float:left:
+    margin-left:2%;
+}
+.ten{
+    width:83%;
+    float: left;
+    margin-left: 2%;
+}
+.nine{
+    width:74.5%;
+    float: left;
+    margin-left: 2%;
+}
+.eight{
+    width:66%;
+    float: left;
+    margin-left: 2%;
+}
+.seven{
+    width:57.5%;
+    float: left;
+    margin-left: 2%;
+}
+.six{
+    width:49%;
+    float: left;
+    margin-left: 2%;
+}
+.five{
+    width:40.5%;
+    float: left;
+    margin-left: 2%;
+}
+.four{
+    width:32%;
+    float: left;
+    margin-left: 2%;
+}
+.three{
+    width:23.5%;
+    float: left;
+    margin-left: 2%;
+}
+.two{
+    width:15%;
+    float: left;
+    margin-left: 2%;
+}
+.one{
+    width:6.5%;
+    float: left;
+    margin-left: 2%;
+}
+.row {
+	width: 100%;
+	clear: both; /* Clear creates new styles for the next row */
+	padding: 0px;
+	margin: 0px;
+}
+header{
+    height:50px;
+  
+}
+.hero-image{
+    height:700px;
+    background-image: url(galleryimg/voyage-dubai-chameau.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+}
+.hero-image:hover{
+    filter: grayscale(50%);
+}
+.headtext{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    float: right;
+    color: white;
+    font-size:60px;
+    
+}
+.row3 .six, .row3 .three {
+	height: 400px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+.firstsix{
+    background-image: url(galleryimg/img27.jpg);
+     background-repeat: no-repeat;
+    background-size: cover;
+     display: flex;
+    align-items: center;
+    color: white;
+}
+.firstsix:hover{
+    filter:grayscale(100%);
+}
+.firsttextsix{
+   margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;  
+}
+.firstthree{
+    background-image: url(galleryimg/legit6.jpg);
+     background-repeat: no-repeat;
+    background-size: cover;
+}
+.firstthreetext{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+.firstthree:hover{
+    filter: grayscale(100%);
+}
+.secondthree{
+    background-image: url(galleryimg/img10.jpg);
+     background-repeat: no-repeat;
+    background-size: cover;
+}
+.secondtextthree{
+    font-family: 'Oswald', sans-serif;
+     color: aliceblue;
+    text-align: center;
+     
+}
+.secondtextsix{
+     font-family: 'Oswald', sans-serif;
+     color: darkblue;
+}
+.thirdtextthree{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: aliceblue;
+}
+.secondthree:hover{
+    filter: grayscale(100%);
+}
+.row4 .six, .row4 .three {
+	height: 400px;
+	
+     margin-bottom: 2px;
+    margin-top: 2px;
+}
+.fourthtextthree{
+     font-family: 'Oswald', sans-serif;
+    
+     text-align: center;
+}
+.fifthtextthree{
+     font-family: 'Oswald', sans-serif;
+     color: aliceblue;
+    text-align: center;
+     
+}
+.sixthtextthree{
+     font-family: 'Oswald', sans-serif;
+     color: aliceblue;
+     text-align: center;
+}
+.thirdthree{
+    background-image: url(galleryimg/meh.jpg);
+     background-repeat: no-repeat;
+    background-size: cover;
+}
+.thirdthree:hover{
+    filter: grayscale(100%);
+}
+.secondsix{
+    background-image: url(galleryimg/img24.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secondsix:hover{
+  background-color: aqua;
+}
+.fourththree{
+    background-image: url(galleryimg/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fourththree:hover{
+    filter: grayscale(100%);
+}
+
+.row5 .six, .row5 .three {
+	height: 400px;
+	
+     margin-bottom: 2px;
+    margin-top: 2px;
+}
+.fifththree{
+    background-image: url(galleryimg/img8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fifththree:hover{
+    filter: grayscale(100%);
+}
+.sixththree{
+    background-image: url(galleryimg/img11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.seventhtextthree{
+     font-family: 'Oswald', sans-serif;
+     color: aliceblue;
+     text-align: center;
+}
+.sixththree:hover{
+    filter: grayscale(100%);
+}
+.sevenththree{
+    background-image: url(galleryimg/img22.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.thirdtextsix{
+     font-family: 'Oswald', sans-serif;
+}
+.thirdtextsix a{
+    text-decoration: none;
+}
+.eighthtextthree{
+    font-family: 'Oswald', sans-serif;
+    
+     text-align: center;
+}
+.sevenththree:hover{
+    filter: grayscale(100%);
+}
+.eighththree{
+    background-image: url(galleryimg/Araby-by-Nature-hero-desktop-events-spotlight.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.eighththree:hover{
+    filter: grayscale(100%);
+}
+.row6 .six, .row6 .three {
+	height: 400px;
+	
+     margin-bottom: 2px;
+    margin-top: 2px;
+}
+.thirdsix{
+    background-image: url(galleryimg/img25.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.thirdsix:hover{
+    filter: grayscale(100%);
+}
+.ninththree{
+    background-image: url(galleryimg/dubai-worldcup.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ninththree:hover{
+    filter: grayscale(100%);
+}
+.tenththree{
+    background-image: url(galleryimg/44.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tenththree:hover{
+    filter:grayscale(100%);
+}
+
+
+body{
+    margin:0;
+    padding:0;
+}

@@ -1,0 +1,210 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url(todoimg/1920x1200-data-out-248-46913274-wallpaper-wood.jpg);
+}
+
+
+
+input[type=text] {
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    float:right;
+}
+
+input[type=text]:focus {
+    width: 20%;
+}
+.topnav {
+    overflow: hidden;
+}
+
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+     font-family: 'Oswald', sans-serif;
+}
+
+
+.topnav a:hover {
+    background-color: aqua;
+    
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+    input{
+        display: none;
+    }
+}
+
+.header{
+    font-family: 'Oswald', sans-serif;
+    margin: 70px;
+    padding: 0;
+    font-size:80px;
+    text-align: center;
+   
+}
+.container{
+    position: relative;
+    
+}
+.firsthead li{
+    list-style:none;
+
+}
+.firsthead{
+    text-align: center;
+}
+img{
+    max-width: 100%;
+}
+iframe{
+    max-width: 100%;
+}
+.ul{
+    text-align: center;
+}
+.text{
+    font-size:50px;
+    margin:0;
+    padding:0;
+     font-family: 'Oswald', sans-serif;
+}
+
+.smalltext{
+    width:70%;
+    margin: 20px auto;
+    font-size:20px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 30px;
+}
+
+#header{
+    margin:0;
+    padding:0;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.transition:hover{
+    opacity:0.5;
+    background-color:rgba(0,0,0,0.5));
+}
+.li{
+     list-style-type:none;
+     margin:0;
+     padding:0;
+}
+
+ .footy{
+   color:black;
+   font-family: 'Oswald', sans-serif;
+    margin:0;
+    padding:0;
+     font-size:30px;
+ }
+.footyfirsthead{
+    color:black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size:70px;
+    margin:0;
+    padding:0;
+}
+.carousel-caption{
+     font-family: 'Oswald', sans-serif;
+    
+}
+.footysubhead{
+    color:black;
+    font-family: 'Oswald', sans-serif;
+    font-size:30px;
+    margin:0;
+    padding:0;
+}
+
+.secondcolfothead{
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    font-weight:bold;
+    margin:0;
+    padding:0;
+    color:black;
+
+}
+.secondcolfot{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin:0;
+    padding:0;
+    color:black;
+
+}
+
+.secondcol{
+    
+    margin:0;
+    padding:0;
+    display: inline-block;
+}
+.thirdcol{
+    
+    display: inline-block;
+    
+}
+.thirdcolfot{
+      font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin:0;
+    padding:0;
+    color:black;
+}
+.thirdcolfothead{
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    font-weight:bold;
+    margin:0;
+    padding:0;
+    color:black;
+}
+#iconone{
+    font-size:50px;
+}
+#icontwo{
+    font-size:50px;
+  
+}
+#iconthird{
+    font-size:50px;
+ 
+}
+#iconfourth{
+    font-size:50px;
+}
+
+
